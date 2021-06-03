@@ -1,0 +1,46 @@
+/* Applying border-box to all element */
+html {
+    box-sizing: border-box;
+}
+
+/* inherit border-box on all elements in the universe and before and after */
+*,*:before,*:after{
+    box-sizing: inherit;
+    color: #6DA34D!important;
+}
+
+/* common CSS */
+.button-bg{
+	background-color: #6DA34D;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.active{
+	border-bottom: 3px solid #000 !important;
+}
+/* Designing Navbars */
+.navbar-toggler-icon{
+    background-image: url('../Images/toggle.png');
+}
+
+.nav-link{
+	color: #000!important;
+}
+
+
+/* grass */
+/* .grass{
+	position: fixed;
+	bottom: 206px;
+} */
+
+/* About.html */
+
+/* Designing about section */
+.about-us-desc{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.about-us-desc q{
+	color: #000!important;
+}
