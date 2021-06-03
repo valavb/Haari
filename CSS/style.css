@@ -36,11 +36,13 @@ html {
 /* About.html */
 
 /* Designing about section */
-.about-us-desc{
+.about-us-desc,.contact{
 	width: 60%;
 	margin: 0 auto;
 }
 
-.about-us-desc q{
+.about-us-desc q,.contact q{
 	color: #000!important;
 }
+
+/* Styling contact us */
