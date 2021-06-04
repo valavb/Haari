@@ -6,7 +6,6 @@ html {
 /* inherit border-box on all elements in the universe and before and after */
 *,*:before,*:after{
     box-sizing: inherit;
-    color: #6DA34D!important;
 }
 
 /* common CSS */
@@ -17,6 +16,11 @@ html {
 .active{
 	border-bottom: 3px solid #000 !important;
 }
+
+.site-color{
+	color: #6DA34D!important;
+}
+
 /* Designing Navbars */
 .navbar-toggler-icon{
     background-image: url('../Images/toggle.png');
@@ -46,3 +50,31 @@ html {
 }
 
 /* Styling contact us */
+
+.fa-twitter{
+	color: #1DA1F2 !important;
+}
+
+.fa-linkedin{
+	color: #0077b5!important;
+}
+
+/* Styling service.html */
+.service-type img{
+	width: 30%;
+	height: auto;
+}
+
+.service-type{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	width: 250px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.service-desc{
+	font-style: normal;
+	font-weight: bold;
+}
