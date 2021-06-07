@@ -170,7 +170,7 @@ html {
  background-color: #F2FDEA;
   position: relative;
   border-radius: 6px;
-  word-wrap: break-word;
+  word-wrap: break-word;  
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -204,4 +204,24 @@ html {
   .right {
     left: 0%;
   }
+}
+
+
+/* Styling timeline grass*/
+
+.grass-timeline{
+  width: 100%;
+  height: 206px;  
+  background: url('../Images/bg.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+/* Styling grass */
+.grass{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 206px;  
+  background: url('../Images/bg.png') no-repeat;
+  background-size: 100% 100%;
 }
