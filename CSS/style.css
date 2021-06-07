@@ -1,4 +1,4 @@
-Applying border-box to all element */
+/* Applying border-box to all element */
 html {
     box-sizing: border-box;
 }
@@ -19,6 +19,10 @@ html {
 
 .site-color{
 	color: #6DA34D!important;
+}
+
+.navbar-toggler:focus{
+  color: #6DA34D!important;
 }
 
 /* Designing Navbars */
@@ -201,7 +205,7 @@ html {
 
 /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-    left: 15px;
+    left: 18px;
   }
 
 /* Make all right containers behave like the left ones */
@@ -226,13 +230,13 @@ html {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 206px;
+  height: 150px;
   background-color: white;  
 }
 
 .grass-container{
   width: 100%;
-  height: 206px;  
+  height: 150px;  
   background: url('../Images/bg.png') no-repeat;
   background-size: 100% 100%;
 
@@ -242,4 +246,73 @@ html {
   overflow: scroll;
   height: 60vh;
   overflow-x: hidden;
+}
+
+/* Styling drone */
+
+.drone{
+  width: 20%;
+  height: auto;
+}
+
+.line-break{
+  display: none;
+}
+
+/* styling esurvey */
+.e-survey-img,.crop-health-img{
+  width: 80%;
+  height: auto;
+}
+
+.spray-img{
+  width: 90%;
+  height: auto;
+}
+
+/* responsiveness */
+@media screen and (max-width: 992px) {
+  .line-break{
+    display: inline;
+  }
+
+  .drone{
+    width: 20%;
+    margin-top: 60px;
+  }
+  .grass-container,.grass{
+    height: 100px;
+  }
+
+  .e-survey-img{
+    width: 130%;
+  }
+
+  .crop-health-img{
+    width: 120%;
+  }
+
+  .spray-img{
+    width: 140%;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .e-survey-img,.crop-health-img,.spray-img{
+    margin-top: 40px!important;
+    width: 100%;
+  }
+
+  .drone{
+    width: 30%;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  .drone{
+    width: 40%;
+  }
 }
