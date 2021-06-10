@@ -375,3 +375,7 @@ html {
 .droon{
   z-index: 10;
 }
+
+#about-drone{
+  margin-top: -50px;
+}
