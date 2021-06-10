@@ -87,7 +87,7 @@ html {
 }
 
 .contact-nav{
-  color: #FFF;
+  color: #FFF!important;
 }
 
 /* Styling service.html */
@@ -250,21 +250,14 @@ html {
   bottom: 0;
   width: 100%;
   height: 150px;
-  background-color: white;  
-}
-
-.grass-container{
-  width: 100%;
-  height: 150px;  
-  background: url('../Images/bg.png') no-repeat;
-  background-size: 100% 100%;
-
+   background: url('../Images/bg.png') no-repeat;
+  background-size: 100% 100%; 
 }
 
 /* Styling drone */
 
 .drone{
-  width: 20%;
+  width: 15%;
   height: auto;
 }
 
